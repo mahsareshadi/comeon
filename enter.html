@@ -27,18 +27,20 @@
 		}
 
 		.nav-item {
-			margin-left: 55px;
-
-			#form {
-				text-align: right;
+			margin-left: 55px;}
+			#form{
+				text-align: center;
 			}
-
-			#pwd {
-				text-align: right;
+			.form-control{
+				margin-left: auto;
+				margin-right: auto;
+				width: 400px;
 			}
-
-			#email {
-				text-align: right;
+			.form-group{
+				font-size: 30px;
+			}
+			.btn-primary{
+				background-color: rgb(135, 173, 222);
 			}
 	</style>
 </head>
@@ -85,28 +87,27 @@
 	</div>
 	<div class="container" id="form">
 		<br /><br />
-		<h2>ورود</h2>
+		<h2>Sign in</h2>
 		<br /><br />
 		<form action="/action_page.php">
 			<div class="form-group">
-				<label for="email">: ایمیل</label>
-				<input type="email" class="form-control" id="email" placeholder="ایمیل خودرا وارد کنید" name="email">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" placeholder="enter your email here" name="email">
 			</div>
 			<div class="form-group">
-				<label for="pwd">: پسورد</label>
-				<input type="password" class="form-control" id="pwd" placeholder="پسورد را وارد کنید" name="pwd">
+				<label for="pwd">Password</label>
+				<input type="password" class="form-control" id="pwd" placeholder="enter your password here" name="pwd">
 			</div>
 			<div class="checkbox">
-				<label><input type="checkbox" name="remember"> مرا به خاطر بسپار</label>
+				<label><input type="checkbox" name="remember">&nbsp; remember me</label>
 			</div>
 			<br /><br />
-			<button type="submit" class="btn-primary">ورود</button>
+			<button type="submit" class="btn-primary">sign in</button>
 		</form>
 		<br /><br />
-		<div>اگر ثبت نام نکرده اید
-			<a href="register.html">اینجا</a>
-			کلیک کنید
-		</div>
+		<div>for creating an account 
+			<a href="register.html">click here</a>
+		</div><br/>
 	</div>
 </body>
 
